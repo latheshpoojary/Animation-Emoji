@@ -1,0 +1,128 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer-box
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(83, 82, 82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-box .face
+{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    
+}
+.outer-box .face .eye1
+{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+   border-radius: 50%;
+    margin:120px 90px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer-box .face .eye2
+{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+   border-radius: 50%;
+    margin:120px 90px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.outer-box .face .eye1 .eyeball
+{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    animation-name: abc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.outer-box .face .eye2 .eyeball
+{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    animation-name:abc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes abc {
+    
+
+
+   0%
+   {
+       top: 25px;
+       transition: 3s;
+   }
+   10% 
+   {
+       left: 25px;
+       transition: 3s;
+   }
+   20% 
+   {
+       bottom: 25px;
+       transition: 3s;
+   }
+   30% 
+   {
+       right: 25px;
+ transition: 3s;
+   }
+   40% 
+   {
+       top: 25px;
+     transition: 3s;    
+   }
+   50% 
+   {
+       left: 25px;
+ transition: 3s;
+   }
+   60% 
+   {
+       bottom: 16px;
+   }
+   70% 
+   {
+       right: 16px;
+   }
+   80% 
+   {
+       top: 25px;
+   }
+   90% 
+   {
+       left: 16px;
+   }
+   100%
+   {
+        bottom: 16px;
+   }
+
+   
+
+}
